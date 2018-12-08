@@ -317,7 +317,7 @@ void update(int x, int y){
   else{
     pOver = false;
   }
-  if (overDEL(DELX, row1Y, row1Wide, rowheight)){
+  if (overDEL(DELX, row1Y, DELWide, rowheight)){
     DELOver = true;
   }
   else{
@@ -377,7 +377,7 @@ void update(int x, int y){
   else{
     lOver = false;
   }
-  if (overENTER(ENTERX, row2Y, row2Wide, rowheight)){
+  if (overENTER(ENTERX, row2Y, ENTERWide, rowheight)){
     ENTEROver = true;
   }
   else{
